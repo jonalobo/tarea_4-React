@@ -1,10 +1,10 @@
-import {NavBar, Section} from './container'
+import {NavBar, ItemListContainer} from './components'
 
 function App() {
   return (
-    <html data-theme="luxury">
+    <html data-theme="dark">
       <NavBar />
-      <Section />
+      <ItemListContainer greetings="Hola"/>
     </html>
   );
 }
